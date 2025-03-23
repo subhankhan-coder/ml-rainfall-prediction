@@ -19,27 +19,11 @@ The dataset was collected from Kaggle. It contains meteorological data of Austin
 Therefore, atmospheric features such as temperature, relative humidity, sea level pressure, and wind speed are seen as important features that predict rainfall accurately.
 
 
-
-
-## Acknowledgements
-
- - [What Is a Regression Model?](https://www.imsl.com/blog/what-is-regression-model#:~:text=A%20regression%20model%20provides%20a,by%20a%20linear%20regression%20model.)
- - [Approaching (Almost) Any Machine Learning Problem Paperback](https://www.amazon.com/Approaching-Almost-Machine-Learning-Problem/dp/8269211508)
- - [Austin Weather](https://www.kaggle.com/datasets/grubenm/austin-weather)
-
-
-## Appendix
-![sample model](https://miro.medium.com/max/720/1*G1Y_-X14q2xMVHlUuaUUdA.png)
-
 Linear regression is a basic predictive analytics technique that uses historical data to predict an output variable. It is popular for predictive modelling because it is easily understood and can be explained using plain English.
 
 Linear regression models have many real-world applications in an array of industries such as economics (e.g. predicting growth), business (e.g. predicting product sales, employee performance), social science (e.g. predicting political leanings from gender or race), healthcare (e.g. predicting blood pressure levels from weight, disease onset from biological factors), and more.
 
 Understanding how to implement linear regression models can unearth stories in data to solve important problems.
-
-## Authors
-
-- [@MichaelTobiko](https://github.com/miketobz)
 
 
 ## API Reference
@@ -90,18 +74,7 @@ If int, then consider min_samples_split as the minimum number.
 
 If float, then min_samples_split is a fraction and ceil(min_samples_split * n_samples) are the minimum number of samples for each split.
 
-## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-tobiko-1563a693)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](twitter.com/MichaelTobiko)
 
-
-## Demo
-![Demo](https://c.tenor.com/20n67BNCG9wAAAAC/linear-regression.gif)
-
-
-![Demo1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11069-021-05063-3/MediaObjects/11069_2021_5063_Fig2_HTML.png)
-
-![Demo2](https://github.com/miketobz/ML-Rainfall-Prediction/blob/master/Rainfall%20Predictions.png)
 
 
 
@@ -122,16 +95,7 @@ To deploy this project run
   npm run deploy
 ```
 
-
-## Data Visualization
-
-![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/20190610231245/precipitation.png)
-
-![Screenshot](Rainfall_Prediction_BI_report.png)
-
 ## Lessons Learned
 With high-dimensional datasets (meaning datasets with a large number of features), linear models become more powerful, and there is a higher chance of overfitting.
 
 In terms of model performance, the Random Forest Regressor model out-performed all other machine learning models. However, the Support Vector Regression came close. The Multilayer Perceptron Regressor's performance was the worst; it displayed a high Root Mean Squared Error value, as compared to the other models.
-
-All things considered, the machine learning models did not perform as expected due to an imbalanced dataset; the target (dependent variable) is highly skewed with zero (0) values.
